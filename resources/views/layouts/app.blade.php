@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="google-site-verification" content="OLbyqYZDfnsSGPmoqrZgwhvPCGrgY5cF1hIJPd-Pg4I" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -156,8 +156,7 @@
                             <h2>Talent<span>Work</span></h2>
                             <p>Pagina dedicada a publicar servicios de todo tipo, ya sea tecnico o algun oficio</p>
                             <div class="text-center">
-                                <a class="btn btn-success" href="{{ route('aleatorio') }}">Aleatorio</a>
-
+                                {{-- <a class="btn btn-success" href="{{ route('aleatorio') }}">Aleatorio</a> --}}
                             </div>
                         </div>
                     </div>
